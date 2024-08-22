@@ -99,7 +99,6 @@
             <artifactId>datafaker</artifactId>
             <version>2.3.1</version>
         </dependency>
-
     </dependencies>
 
     <properties>
@@ -107,6 +106,18 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <repository>
+        <id>apache.snapshots</id>
+        <name>Apache Development Snapshot Repository</name>
+        <url>https://repository.apache.org/content/repositories/snapshots/</url>
+        <releases>
+            <enabled>false</enabled>
+        </releases>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
 
     <build>
 
@@ -128,14 +139,13 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.4.0</version>
                 <configuration>
-<!--                    <includes>-->
-<!--                        <include>**/runner.class</include>-->
-<!--                    </includes>-->
                     <suiteXmlFiles>
                         <suiteXmlFile>runpackage.xml</suiteXmlFile>
+                        <file>src/test/java/com/easyserv/runners/Suite_Motoserve_UAT_BookingApp.xml</file>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
+
 
 <!--            <plugin>-->
 <!--                <groupId>net.masterthought</groupId>-->
@@ -181,6 +191,6 @@
 <!--            </plugin>-->
 
         </plugins>
-
     </build>
+
 </project>
