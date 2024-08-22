@@ -169,45 +169,45 @@
 <!--            </class>-->
 <!--        </classes>-->
 
-        <classes>
-            <class name="com.easyserv.testcases.Motoserve.ProvideContactDetailTest">
-                <methods>
-                    <include name="ProvideContactTest_TC001"/>
-<!--                    <include name="ProvideContactTest_TC002"/>                      -->
-                    <include name="ProvideContactTest_TC003"/>
-                    <include name="ProvideContactTest_TC004"/>
-                    <include name="ProvideContactTest_TC005"/>
-                    <include name="ProvideContactTest_TC006"/>
-                    <include name="ProvideContactTest_TC007"/>
-                    <include name="ProvideContactTest_TC008"/>
-                    <include name="ProvideContactTest_TC009"/>
-                    <include name="ProvideContactTest_TC010"/>
-                    <include name="ProvideContactTest_TC011"/>
-                    <include name="ProvideContactTest_TC012"/>
-                    <include name="ProvideContactTest_TC013"/>
-                    <include name="ProvideContactTest_TC014"/>
-                    <include name="ProvideContactTest_TC015"/>
-                    <include name="ProvideContactTest_TC016"/>
-                    <include name="ProvideContactTest_TC017"/>
-                    <include name="ProvideContactTest_TC018"/>
-                    <include name="ProvideContactTest_TC019"/>
-                    <include name="ProvideContactTest_TC020"/>
-                    <include name="ProvideContactTest_TC021"/>
-                    <include name="ProvideContactTest_TC022"/>
-                    <include name="ProvideContactTest_TC023"/>
-                    <include name="ProvideContactTest_TC024"/>
-                    <include name="ProvideContactTest_TC025"/>
-                    <include name="ProvideContactTest_TC026"/>
-                    <include name="ProvideContactTest_TC027"/>
-                    <include name="ProvideContactTest_TC028"/>
-                    <include name="ProvideContactTest_TC029"/>
-                    <include name="ProvideContactTest_TC030"/>
-                    <include name="ProvideContactTest_TC031"/>
-                    <include name="ProvideContactTest_TC032"/>
-                    <include name="ProvideContactTest_TC033"/>
-                </methods>
-            </class>
-        </classes>
+<!--        <classes>-->
+<!--            <class name="com.easyserv.testcases.Motoserve.ProvideContactDetailTest">-->
+<!--                <methods>-->
+<!--                    <include name="ProvideContactTest_TC001"/>-->
+<!--&lt;!&ndash;                    <include name="ProvideContactTest_TC002"/>                      &ndash;&gt;-->
+<!--                    <include name="ProvideContactTest_TC003"/>-->
+<!--                    <include name="ProvideContactTest_TC004"/>-->
+<!--                    <include name="ProvideContactTest_TC005"/>-->
+<!--                    <include name="ProvideContactTest_TC006"/>-->
+<!--                    <include name="ProvideContactTest_TC007"/>-->
+<!--                    <include name="ProvideContactTest_TC008"/>-->
+<!--                    <include name="ProvideContactTest_TC009"/>-->
+<!--                    <include name="ProvideContactTest_TC010"/>-->
+<!--                    <include name="ProvideContactTest_TC011"/>-->
+<!--                    <include name="ProvideContactTest_TC012"/>-->
+<!--                    <include name="ProvideContactTest_TC013"/>-->
+<!--                    <include name="ProvideContactTest_TC014"/>-->
+<!--                    <include name="ProvideContactTest_TC015"/>-->
+<!--                    <include name="ProvideContactTest_TC016"/>-->
+<!--                    <include name="ProvideContactTest_TC017"/>-->
+<!--                    <include name="ProvideContactTest_TC018"/>-->
+<!--                    <include name="ProvideContactTest_TC019"/>-->
+<!--                    <include name="ProvideContactTest_TC020"/>-->
+<!--                    <include name="ProvideContactTest_TC021"/>-->
+<!--                    <include name="ProvideContactTest_TC022"/>-->
+<!--                    <include name="ProvideContactTest_TC023"/>-->
+<!--                    <include name="ProvideContactTest_TC024"/>-->
+<!--                    <include name="ProvideContactTest_TC025"/>-->
+<!--                    <include name="ProvideContactTest_TC026"/>-->
+<!--                    <include name="ProvideContactTest_TC027"/>-->
+<!--                    <include name="ProvideContactTest_TC028"/>-->
+<!--                    <include name="ProvideContactTest_TC029"/>-->
+<!--                    <include name="ProvideContactTest_TC030"/>-->
+<!--                    <include name="ProvideContactTest_TC031"/>-->
+<!--                    <include name="ProvideContactTest_TC032"/>-->
+<!--                    <include name="ProvideContactTest_TC033"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
 
 <!--        <classes>-->
 <!--            <class name="com.easyserv.testcases.Motoserve.SearchVehicleByRegoTest">-->
@@ -244,30 +244,30 @@
 <!--        </classes>-->
 
 
-        <!--        <classes>-->
-<!--            <class name="com.easyserv.testcases.Motoserve.EnquiriesTest">-->
-<!--                <methods>-->
-<!--                    <include name="EnquiriesTest_TC001"/>-->
-<!--                    <include name="EnquiriesTest_TC002"/>-->
-<!--                    <include name="EnquiriesTest_TC003"/>-->
-<!--                    <include name="EnquiriesTest_TC004"/>-->
-<!--                    <include name="EnquiriesTest_TC005"/>-->
-<!--                    <include name="EnquiriesTest_TC006"/>-->
-<!--                    <include name="EnquiriesTest_TC007"/>-->
-<!--                    <include name="EnquiriesTest_TC008"/>-->
-<!--                    <include name="EnquiriesTest_TC009"/>-->
-<!--                    <include name="EnquiriesTest_TC010"/>-->
-<!--                    <include name="EnquiriesTest_TC011"/>-->
-<!--                    <include name="EnquiriesTest_TC012"/>-->
-<!--                    <include name="EnquiriesTest_TC013"/>-->
-<!--                    <include name="EnquiriesTest_TC014"/>-->
-<!--                    <include name="EnquiriesTest_TC015"/>-->
-<!--                    <include name="EnquiriesTest_TC016"/>-->
-<!--                    <include name="EnquiriesTest_TC017"/>-->
-<!--                    <include name="EnquiriesTest_TC018"/>-->
-<!--                    <include name="EnquiriesTest_TC019"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--        </classes>-->
+                <classes>
+            <class name="com.easyserv.testcases.Motoserve.EnquiriesTest">
+                <methods>
+                    <include name="EnquiriesTest_TC001"/>
+                    <include name="EnquiriesTest_TC002"/>
+                    <include name="EnquiriesTest_TC003"/>
+                    <include name="EnquiriesTest_TC004"/>
+                    <include name="EnquiriesTest_TC005"/>
+                    <include name="EnquiriesTest_TC006"/>
+                    <include name="EnquiriesTest_TC007"/>
+                    <include name="EnquiriesTest_TC008"/>
+                    <include name="EnquiriesTest_TC009"/>
+                    <include name="EnquiriesTest_TC010"/>
+                    <include name="EnquiriesTest_TC011"/>
+                    <include name="EnquiriesTest_TC012"/>
+                    <include name="EnquiriesTest_TC013"/>
+                    <include name="EnquiriesTest_TC014"/>
+                    <include name="EnquiriesTest_TC015"/>
+                    <include name="EnquiriesTest_TC016"/>
+                    <include name="EnquiriesTest_TC017"/>
+                    <include name="EnquiriesTest_TC018"/>
+                    <include name="EnquiriesTest_TC019"/>
+                </methods>
+            </class>
+        </classes>
     </test>
 </suite>
