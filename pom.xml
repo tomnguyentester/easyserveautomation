@@ -141,7 +141,8 @@
                 <configuration>
                     <suiteXmlFiles>
 <!--                        <suiteXmlFile>runpackage.xml</suiteXmlFile>-->
-                        <file>src/test/java/com/easyserv/runners/Suite_Motoserve_UAT_BookingApp.xml</file>
+                        <suiteXmlFile>src/test/java/com/easyserv/runners/Suite_Motoserve_UAT_BookingApp.xml</suiteXmlFile>
+<!--                        <file>src/test/java/com/easyserv/runners/Suite_Motoserve_UAT_BookingApp.xml</file>-->
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
