@@ -213,6 +213,7 @@ public class EnquiriesPages {
 
     public void Enquiries_TC018(String post){
         validateHelper.clickElement(enquiriIcon);
+        validateHelper.movetoElement(postCode);
         validateHelper.setText(postCode,post);
     }
 
