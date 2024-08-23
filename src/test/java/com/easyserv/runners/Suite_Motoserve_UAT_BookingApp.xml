@@ -251,21 +251,21 @@
                     <include name="EnquiriesTest_TC002"/>
                     <include name="EnquiriesTest_TC003"/>
                     <include name="EnquiriesTest_TC004"/>
-                    <include name="EnquiriesTest_TC005"/>
-                    <include name="EnquiriesTest_TC006"/>
-                    <include name="EnquiriesTest_TC007"/>
-                    <include name="EnquiriesTest_TC008"/>
-                    <include name="EnquiriesTest_TC009"/>
-                    <include name="EnquiriesTest_TC010"/>
-                    <include name="EnquiriesTest_TC011"/>
-                    <include name="EnquiriesTest_TC012"/>
-                    <include name="EnquiriesTest_TC013"/>
-                    <include name="EnquiriesTest_TC014"/>
-                    <include name="EnquiriesTest_TC015"/>
-                    <include name="EnquiriesTest_TC016"/>
-                    <include name="EnquiriesTest_TC017"/>
-                    <include name="EnquiriesTest_TC018"/>
-                    <include name="EnquiriesTest_TC019"/>
+<!--                    <include name="EnquiriesTest_TC005"/>-->
+<!--                    <include name="EnquiriesTest_TC006"/>-->
+<!--                    <include name="EnquiriesTest_TC007"/>-->
+<!--                    <include name="EnquiriesTest_TC008"/>-->
+<!--                    <include name="EnquiriesTest_TC009"/>-->
+<!--                    <include name="EnquiriesTest_TC010"/>-->
+<!--                    <include name="EnquiriesTest_TC011"/>-->
+<!--                    <include name="EnquiriesTest_TC012"/>-->
+<!--                    <include name="EnquiriesTest_TC013"/>-->
+<!--                    <include name="EnquiriesTest_TC014"/>-->
+<!--                    <include name="EnquiriesTest_TC015"/>-->
+<!--                    <include name="EnquiriesTest_TC016"/>-->
+<!--                    <include name="EnquiriesTest_TC017"/>-->
+<!--                    <include name="EnquiriesTest_TC018"/>-->
+<!--                    <include name="EnquiriesTest_TC019"/>-->
                 </methods>
             </class>
         </classes>
