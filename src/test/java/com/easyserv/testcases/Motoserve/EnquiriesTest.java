@@ -40,7 +40,7 @@ public class EnquiriesTest extends BaseSetup {
     @Test(priority = 3, description = "Verify user can choose value from \"Select Store\" listbox  _003")
     public void EnquiriesTest_TC003() {
         enquiriesPages.Enquiries_TC003();
-        Assert.assertEquals(enquiriesPages.VerifySelectStoreValue(),"ARTARMON11");
+        Assert.assertEquals(enquiriesPages.VerifySelectStoreValue(),"ARTARMON");
     }
 
     @Test(priority = 4, description = "Verify user can choose value from \"Suburb\" listbox when I input data for fields \"Postcode\"  _004")
