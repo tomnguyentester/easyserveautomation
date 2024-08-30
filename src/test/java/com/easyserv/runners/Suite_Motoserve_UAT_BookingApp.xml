@@ -244,15 +244,15 @@
 <!--        </classes>-->
 
 
-                <classes>
-            <class name="com.easyserv.testcases.Motoserve.EnquiriesTest">
-                <methods>
-                    <include name="EnquiriesTest_TC001"/>
-                    <include name="EnquiriesTest_TC002"/>
-                    <include name="EnquiriesTest_TC003"/>
-                    <include name="EnquiriesTest_TC004"/>
-                    <include name="EnquiriesTest_TC005"/>
-                    <include name="EnquiriesTest_TC006"/>
+<!--                <classes>-->
+<!--            <class name="com.easyserv.testcases.Motoserve.EnquiriesTest">-->
+<!--                <methods>-->
+<!--                    <include name="EnquiriesTest_TC001"/>-->
+<!--                    <include name="EnquiriesTest_TC002"/>-->
+<!--                    <include name="EnquiriesTest_TC003"/>-->
+<!--                    <include name="EnquiriesTest_TC004"/>-->
+<!--                    <include name="EnquiriesTest_TC005"/>-->
+<!--                    <include name="EnquiriesTest_TC006"/>-->
 <!--                    <include name="EnquiriesTest_TC007"/>-->
 <!--                    <include name="EnquiriesTest_TC008"/>-->
 <!--                    <include name="EnquiriesTest_TC009"/>-->
@@ -266,6 +266,30 @@
 <!--                    <include name="EnquiriesTest_TC017"/>-->
 <!--                    <include name="EnquiriesTest_TC018"/>-->
 <!--                    <include name="EnquiriesTest_TC019"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+
+
+        <classes>
+            <class name="com.easyserv.testcases.Motoserve.LoginTest">
+                <methods>
+                    <include name="LoginTest_TC001"/>
+                    <include name="LoginTest_TC002"/>
+                    <include name="LoginTest_TC003"/>
+                    <include name="LoginTest_TC004"/>
+                    <include name="LoginTest_TC005"/>
+                    <include name="LoginTest_TC006"/>
+                    <include name="LoginTest_TC007"/>
+                    <include name="LoginTest_TC008"/>
+                    <include name="LoginTest_TC009"/>
+                    <include name="LoginTest_TC010"/>
+                    <include name="LoginTest_TC011"/>
+                    <include name="LoginTest_TC012"/>
+                    <include name="LoginTest_TC013"/>
+                    <include name="LoginTest_TC014"/>
+                    <include name="LoginTest_TC015"/>
+                    <include name="LoginTest_TC016"/>
                 </methods>
             </class>
         </classes>
