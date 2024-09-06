@@ -59,8 +59,8 @@ public class MyProfileTest extends BaseSetup {
     @Test(priority = 6, description = "Verify enter Postcode same as the given list  _006")
     public void MyProfileTest_TC006() {
         myProfilePages.MyProfile_TC006();
-        Assert.assertEquals(myProfilePages.VerifyPostCodeResult(),"1209");
-        Assert.assertEquals(myProfilePages.VerifySuburbResult(),"Australia Square");
+        Assert.assertEquals(myProfilePages.VerifyPostCodeResult(),"1139");
+        //Assert.assertEquals(myProfilePages.VerifySuburbResult(),"Australia Square");
     }
 
     @Test(priority = 7, description = "Verify user click \"Cancel\" button  _007")

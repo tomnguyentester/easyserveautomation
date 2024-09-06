@@ -32,7 +32,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/SiliconStackProject/EasyServ&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.34252873&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
@@ -64,10 +64,37 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.C:/SiliconStackProject/EasyServ/src/test/java/com/easyserv/runners/Suite_Motoserve_UAT_BookingApp.xml">
+    <configuration name="C:/SiliconStackProject/EasyServ/runpackage.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EasyServ" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/runpackage.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/SiliconStackProject/EasyServ/src/test/java/com/easyserv/runners/Suite_Motoserve_UAT_BookingApp.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EasyServ" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/easyserv/runners/Suite_Motoserve_UAT_BookingApp.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EasyServ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.easyserv.testcases.Motoserve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.easyserv.testcases.Motoserve" />
+      <option name="MAIN_CLASS_NAME" value="com.easyserv.testcases.Motoserve.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -110,55 +137,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectPackageTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EasyServ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.easyserv.testcases.Motoserve.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.easyserv.testcases.Motoserve" />
-      <option name="MAIN_CLASS_NAME" value="com.easyserv.testcases.Motoserve.SelectPackageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectPackageTest.SelectPackagePages_TC005" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EasyServ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.easyserv.testcases.Motoserve.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.easyserv.testcases.Motoserve" />
-      <option name="MAIN_CLASS_NAME" value="com.easyserv.testcases.Motoserve.SelectPackageTest" />
-      <option name="METHOD_NAME" value="SelectPackagePages_TC005" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="TestNG.LoginTest" />
+      <item itemvalue="TestNG.C:/SiliconStackProject/EasyServ/runpackage.xml" />
       <item itemvalue="TestNG.ResetPasswordTest.ResetPasswordTest_TC011" />
       <item itemvalue="TestNG.SearchStoreTest.SearchStoreTest_TC005" />
-      <item itemvalue="TestNG.SelectPackageTest.SelectPackagePages_TC005" />
-      <item itemvalue="TestNG.SelectPackageTest (1)" />
       <item itemvalue="TestNG.C:/SiliconStackProject/EasyServ/src/test/java/com/easyserv/runners/Suite_Motoserve_UAT_BookingApp.xml" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/SiliconStackProject/EasyServ/src/test/java/com/easyserv/runners/Suite_Motoserve_UAT_BookingApp.xml" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.C:/SiliconStackProject/EasyServ/runpackage.xml" />
         <item itemvalue="TestNG.ResetPasswordTest.ResetPasswordTest_TC011" />
         <item itemvalue="TestNG.SearchStoreTest.SearchStoreTest_TC005" />
-        <item itemvalue="TestNG.SelectPackageTest.SelectPackagePages_TC005" />
-        <item itemvalue="TestNG.SelectPackageTest (1)" />
       </list>
     </recent_temporary>
   </component>

@@ -35,7 +35,7 @@ public class MyProfilePages {
     private By postalAdd = By.xpath("//input[@id='postalAddress']");
     private By Sub = By.xpath("//span[contains(text(),'Sydney')]");
     private By subItem = By.xpath("//div[@class='ant-select-item-option-content'][normalize-space()='Australia Square']");
-    private By postCode = By.xpath("//span[@title='1209']");
+    private By postCode = By.xpath("//span[@title='1139']");
     private By subValue = By.xpath("//span[@title='Australia Square']");
     private By cancelBt = By.xpath("//span[contains(text(),'Cancel')]");
     private By confirmTitle = By.xpath("//span[contains(text(),'Confirm')]");
@@ -88,6 +88,7 @@ public class MyProfilePages {
         validateHelper.clickElement(loginBt);
         validateHelper.waitForPageLoaded();
         validateHelper.clickElement(userLogin);
+        validateHelper.delay(2);
         validateHelper.clickElement(viewProfile);
     }
 
@@ -162,7 +163,7 @@ public class MyProfilePages {
         validateHelper.movetoElement(Sub);
         validateHelper.clickElement(Sub);
         validateHelper.delay(2);
-        validateHelper.clickElement(subItem);
+        //validateHelper.clickElement(subItem);
     }
 
     public void MyProfile_TC007(){
@@ -308,6 +309,7 @@ public class MyProfilePages {
         validateHelper.setText(address2,"222 Phu Nhuan");
         validateHelper.movetoElement(updateBt);
         validateHelper.clickElement(updateBt);
+        validateHelper.delay(2);
     }
 
     public void MyProfile_TC021(){
@@ -426,6 +428,7 @@ public class MyProfilePages {
     public void MyProfile_TC035(){
         LoginPage();
         validateHelper.clickElement(userLogin);
+        validateHelper.delay(2);
         validateHelper.clickElement(viewProfile);
         validateHelper.clickElement(passSettingTab);
         validateHelper.setText(currPass,"abc");

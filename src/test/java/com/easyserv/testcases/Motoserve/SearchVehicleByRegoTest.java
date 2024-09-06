@@ -27,7 +27,7 @@ public class SearchVehicleByRegoTest extends BaseSetup {
     public void SearchVehicleRegoTest_TC002() {
         searchVehicleByRegoPages.SerchVehicleRego_TC002();
         Assert.assertEquals(searchVehicleByRegoPages.VerifyConfirmVehicleHeader(),"CONFIRM YOUR VEHICLE");
-        Assert.assertEquals(searchVehicleByRegoPages.VerifyVehicleTitle(),"TOYOTA LANDCRUISER");
+        Assert.assertEquals(searchVehicleByRegoPages.VerifyVehicleTitle(),"TOYOTA LANDCRUISER 2003");
         Assert.assertEquals(searchVehicleByRegoPages.VerifyRegoNumber(),"123456");
         Assert.assertTrue(searchVehicleByRegoPages.VerifyStatusConfirmButton());
     }

@@ -15,7 +15,7 @@ public class LogOutPages {
     private By userLogin = By.xpath("//strong[normalize-space()='TN']");
     private By logOutOption = By.xpath("//span[contains(text(),'Log out')]");
     private By loginHeader = By.xpath("//span[contains(text(),'Login To Your Account')]");
-    private By toyotaVehicle = By.xpath("//div[contains(text(),'TOYOTA LANDCRUISER')]");
+    private By toyotaVehicle = By.xpath("//body/div[@id='__next']/section[@id='main-layout']/main[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]");
     private By confirmButton = By.xpath("//span[contains(text(),'Confirm and Proceed')]");
     private By yesBt = By.xpath("//span[contains(text(),'YES')]");
     private By backBt = By.xpath("//span[contains(text(),'Back')]");

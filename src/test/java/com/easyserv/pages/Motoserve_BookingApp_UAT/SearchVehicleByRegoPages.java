@@ -56,6 +56,9 @@ public class SearchVehicleByRegoPages {
         validateHelper.setText(passwordText,"Testing123@");
         validateHelper.clickElement(loginBt);
         validateHelper.waitForPageLoaded();
+        validateHelper.clickElement(addAnotherVehicleLink);
+        validateHelper.setText(enterRegoText,"123456");
+        validateHelper.clickElement(findMyCarBt);
         validateHelper.clickElement(toyotaVehicle);
         validateHelper.movetoElement(confirmBt);
     }
@@ -127,7 +130,7 @@ public class SearchVehicleByRegoPages {
         validateHelper.clickElement(loginBt);
         validateHelper.waitForPageLoaded();
         validateHelper.clickElement(addAnotherVehicleLink);
-        validateHelper.setText(enterRegoText,"123");
+        validateHelper.setText(enterRegoText,"001");
         validateHelper.clickElement(findMyCarBt);
     }
 

@@ -22,7 +22,7 @@ public class SearchStoreTest extends BaseSetup {
     public void SearchStoreTest_TC001() {
         searchStorePages.SearchStore_TC001();
         Assert.assertTrue(searchStorePages.VerifyStatusEnterSubText());
-        Assert.assertFalse(searchStorePages.VerifyStatusUseCurrentButton());
+        Assert.assertTrue(searchStorePages.VerifyStatusUseCurrentButton());
         Assert.assertTrue(searchStorePages.VerifyStatusVewAllStoreButton());
     }
 

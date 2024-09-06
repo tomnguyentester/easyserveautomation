@@ -109,6 +109,13 @@ public class ValidateHelper {
         //driver.navigate().refresh();
     }
 
+    public void openNewTab() throws AWTException {
+        Robot robot = new Robot();
+        robot.keyPress(KeyEvent.VK_CONTROL);
+        robot.keyPress(KeyEvent.VK_T);
+        delay(1);
+    }
+
     public String checkText(By element) {
         wait.until(ExpectedConditions.elementToBeClickable(element));
         String text = driver.findElement(element).getText();

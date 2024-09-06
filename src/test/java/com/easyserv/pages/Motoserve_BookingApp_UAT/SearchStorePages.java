@@ -16,7 +16,7 @@ public class SearchStorePages {
     private By noStoreLink = By.xpath("//u[contains(text(),'No store currently selected')]");
     private By enterSubText = By.xpath("//input[@placeholder='Enter Suburb or Postcode']");
     private By viewStoreBt = By.xpath("//button[@class='ant-btn ant-btn-round ant-btn-default button']");
-    private By useLocationBt = By.xpath("//div[@class='ant-space ant-space-horizontal ant-space-align-center group-function-button']//div[1]");
+    private By useLocationBt = By.xpath("//button[@class='ant-btn ant-btn-round ant-btn-default button disabled']");
     private By searchButton = By.xpath("//button[@class='ant-btn ant-btn-primary ant-btn-lg ant-input-search-button']");
     private By setMyStoreBt1 = By.xpath("//div[@id='store-select-popup']//div[1]//div[1]//div[1]//div[2]//button[1]");
     private By changeStore = By.xpath("//button[@class='ant-btn ant-btn-round ant-btn-primary main-button btn-branding']");
@@ -45,6 +45,7 @@ public class SearchStorePages {
     public void SearchStore_TC001(){
         LinkTC();
         validateHelper.clickElement(noStoreLink);
+        validateHelper.delay(3);
     }
 
     public void SearchStore_TC002(){
@@ -64,7 +65,7 @@ public class SearchStorePages {
     public void SearchStore_TC004(){
         validateHelper.clickElement(noStoreLink);
         validateHelper.clickElement(viewStoreBt);
-        validateHelper.setText(enterSubText,"Arm");
+        validateHelper.setText(enterSubText,"Artar");
         validateHelper.clickElement(searchButton);
         validateHelper.delay(2);
     }
@@ -120,6 +121,7 @@ public class SearchStorePages {
         validateHelper.clickElement(locationIcon);
         Assert.assertTrue(VerifyStatusCallNowButton());
         validateHelper.clickElement(callnowBt);
+        validateHelper.closeAlert();
     }
 
     public void SearchStore_TC011(){
@@ -157,6 +159,7 @@ public class SearchStorePages {
         validateHelper.clickElement(locationIcon);
         validateHelper.delay(2);
         Assert.assertTrue(VerifyMapDisplay());
+        validateHelper.delay(2);
         validateHelper.clickElement(map);
         validateHelper.delay(2);
     }

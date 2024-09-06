@@ -186,10 +186,10 @@ public class SelectPackagePages {
         validateHelper.movetoElement(chooseProBt);
         Assert.assertTrue(VerifyChooseButton());
         validateHelper.clickElement(chooseProBt);
+        validateHelper.refreshPage();
     }
 
     public void SelectPackagePages_TC007_1() {
-        //validateHelper.waitForPageLoaded();
         validateHelper.setText(regoTextbox,"123456");
         validateHelper.clickElement(findMyCarBt);
         validateHelper.clickElement(storeSelect);
