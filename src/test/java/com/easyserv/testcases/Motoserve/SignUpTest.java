@@ -71,7 +71,7 @@ public class SignUpTest extends BaseSetup {
         signUpPages.SignUp_TC009();
     }
 
-    @Test(priority = 10, description = "Verify user can click on Google button on \"Sign Up\" screen _010")
+    @Test(priority = 10, description = "Verify user can click on Facebook button on \"Sign Up\" screen _010")
     public void SignUpTest_TC010() {
         signUpPages.SignUp_TC010();
     }

@@ -125,22 +125,26 @@ public class SignUpPages {
         validateHelper.SwitchBrowser();
         validateHelper.delay(2);
         Assert.assertEquals(VerifySignInHeader(), "Sign in");
-        driver.close();
-        validateHelper.SwitchBrowser0();
+        //driver.close();
+        //validateHelper.SwitchBrowser0();
     }
 
     public void SignUp_TC010(){
+        driver.close();
+        validateHelper.SwitchBrowser0();
+        validateHelper.SetURL("https://motorserve-booking.siliconstack.com.au/");
         validateHelper.clickElement(loginIcon);
         validateHelper.clickElement(signUpLink);
         validateHelper.clickElement(facebookIcon);
         validateHelper.SwitchBrowser();
         validateHelper.delay(2);
         Assert.assertEquals(VerifyFacebookHeader(), "Facebook");
-        driver.close();
-        validateHelper.SwitchBrowser0();
     }
 
     public void SignUp_TC011(){
+        driver.close();
+        validateHelper.SwitchBrowser0();
+        validateHelper.SetURL("https://motorserve-booking.siliconstack.com.au/");
         validateHelper.clickElement(loginIcon);
         validateHelper.clickElement(signUpLink);
         validateHelper.clickElement(loginLink);

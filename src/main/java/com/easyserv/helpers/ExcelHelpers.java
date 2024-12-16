@@ -8,6 +8,7 @@ import java.util.Map;
 
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFCellStyle;
 
 public class ExcelHelpers {
 
@@ -107,6 +108,72 @@ public class ExcelHelpers {
             fileOut.close();
         }catch(Exception e){
             throw (e);
+        }
+    }
+
+    public void setCellDataPass(String text, String columnName, int rowIndex) {
+        try {
+            row = sh.getRow(rowIndex);
+            if (row == null) {
+                row = sh.createRow(rowIndex);
+            }
+            cell = row.getCell(columns.get(columnName));
+
+            if (cell == null) {
+                cell = row.createCell(columns.get(columnName));
+            }
+            cell.setCellValue(text);
+
+            XSSFCellStyle style = (XSSFCellStyle) wb.createCellStyle();
+            style.setFillPattern(FillPatternType.NO_FILL);
+            style.setAlignment(HorizontalAlignment.CENTER);
+            style.setVerticalAlignment(VerticalAlignment.CENTER);
+            style.setFillForegroundColor(IndexedColors.LIGHT_GREEN.getIndex());
+            style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+//            style.setBorderTop(BorderStyle.THIN);
+//            style.setBorderRight(BorderStyle.THIN);
+//            style.setBorderLeft(BorderStyle.THIN);
+//            style.setBorderBottom(BorderStyle.THIN);
+
+            cell.setCellStyle(style);
+
+            fileOut = new FileOutputStream(excelFilePath);
+            wb.write(fileOut);
+            fileOut.flush();
+            fileOut.close();
+        } catch (Exception e) {
+            e.getMessage();
+        }
+    }
+
+    public void setCellDataFail(String text, String columnName, int rowIndex) {
+        try {
+            row = sh.getRow(rowIndex);
+            if (row == null) {
+                row = sh.createRow(rowIndex);
+            }
+            cell = row.getCell(columns.get(columnName));
+
+            if (cell == null) {
+                cell = row.createCell(columns.get(columnName));
+            }
+            cell.setCellValue(text);
+
+            XSSFCellStyle style = (XSSFCellStyle) wb.createCellStyle();
+            style.setFillPattern(FillPatternType.NO_FILL);
+            style.setAlignment(HorizontalAlignment.CENTER);
+            style.setVerticalAlignment(VerticalAlignment.CENTER);
+            style.setFillForegroundColor(IndexedColors.RED.getIndex());
+            style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+
+            cell.setCellStyle(style);
+
+            fileOut = new FileOutputStream(excelFilePath);
+            wb.write(fileOut);
+            fileOut.flush();
+            fileOut.close();
+        } catch (Exception e) {
+            e.getMessage();
         }
     }
 }

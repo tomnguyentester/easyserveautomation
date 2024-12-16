@@ -36,6 +36,13 @@ public class ValidateHelper {
         ExtentTestManager.logMessage(Status.PASS, "Set text is : " + value + " on element " + element);
     }
 
+    public void actionSetText(String text){
+        Actions actions = new Actions(driver);
+        actions.sendKeys(text).perform();
+        actions.sendKeys(Keys.DOWN).perform();
+        actions.sendKeys(Keys.ENTER).perform();
+    }
+
     public void clickElement(By element) {
         //Click to element
         //waitForPageLoaded();
@@ -68,6 +75,16 @@ public class ValidateHelper {
         //Scroll to element
         js.executeScript("arguments[0].scrollIntoView(true);", driver.findElement(element));
         ExtentTestManager.logMessage(Status.PASS, "Move to element : " + element);
+    }
+
+    public void HighLightPass(WebElement element){
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("arguments[0].style.border='2px solid green'", element);
+    }
+
+    public void HighLightFail(WebElement element){
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("arguments[0].style.border='2px solid red'", element);
     }
 
     public void pressTab(By element) {
@@ -123,13 +140,20 @@ public class ValidateHelper {
         return text;
     }
 
-    public void getText(By element) {
-        driver.findElement(element).getText();
+    public String getText(By element) {
+        //driver.findElement(element).getText();
+        String value = driver.findElement(element).getText();
+        return value;
     }
 
     public String getAttribute(By element) {
         String value = driver.findElement(element).getAttribute("value");
         return value;
+    }
+
+    public String getInnerHTML(By element){
+        String text = driver.findElement(element).getAttribute("innerText");
+        return text;
     }
 
     public String getPlaceholder(By element) {
@@ -282,6 +306,10 @@ public class ValidateHelper {
 
     public void SwitchToAlert() {
         driver.switchTo().alert();
+    }
+
+    public void SetURL(String url){
+        driver.navigate().to(url);
     }
 
 }
